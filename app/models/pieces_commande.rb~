@@ -1,0 +1,2 @@
+class PiecesCommande < ActiveRecord::Base
+end

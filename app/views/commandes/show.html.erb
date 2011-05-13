@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id:</b>
+  <%= @commande.id %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%= @commande.date %>
+</p>
+
+<p>
+  <b>Qte:</b>
+  <%= @commande.qte %>
+</p>
+
+
+<%= link_to 'Edit', edit_commande_path(@commande) %> |
+<%= link_to 'Back', commandes_path %>
